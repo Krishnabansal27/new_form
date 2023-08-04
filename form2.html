@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>
+            form
+        </title>
+        <style>
+            div{
+   
+   text-align: center;    
+   /* Center Align */
+   height: 50px; 
+   background: rgb(53, 53, 53);
+   padding:10px 10px 10px 0px;
+   margin:0px;
+}  
+.mybutton{
+                
+                color:rgb(251, 249, 249);
+                padding: 0px 0px;
+                border:none;
+                width: 49%;
+                height:100%;
+                font-size:18px;
+                margin: 0px;
+
+            }
+            .mybutton:hover{
+    background-color: green;
+    
+}
+            .sign{
+                background-color: grey;
+            }
+            .log{
+                background-color: grey;
+            }
+
+            input[type="email"]{
+        background-color: rgb(53, 53, 53);
+        padding: 10px 15px;
+        border-color: white;
+        font-size: 30px;
+        margin:20px;
+            }
+        ::placeholder{
+            color:rgb(251, 249, 249);
+        }
+    input[type="password"]{
+        background-color: rgb(53, 53, 53);
+        border-color:white;
+        font-size: 30px;
+        padding: 10px 15px; margin:40px;
+    } 
+    .pass{
+        text-align:right;
+        color:rgb(67, 224, 67);
+    }
+        </style>
+    </head>
+    <body style="background-color: rgb(53, 53, 53);">
+        <div>
+            <button class="mybutton sign" 
+            onclick="window.location.href= 'http://127.0.0.1:5500/formk/form1.html'">SIGN UP</button>
+            <button class="mybutton log" >
+             <!-- onclick="window.location.href= 'http://127.0.0.1:5500/form2.html'" -->
+            LOGIN</button>
+        </div>
+        <div style="color:white; font-size: 30px;">
+            Welcome Back!
+        </div>   
+        <div font-size:100%>
+            <input type="email" required placeholder="Email Address*">
+        </div>   
+        <div font-size:100%>
+            <input type="password" required placeholder="Password*">
+        </div>  
+<br><br><p class="pass">Forgot Password?</p>
+
+    </body>
+</html>
