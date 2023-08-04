@@ -39,25 +39,51 @@
 input[type="text"]{
     background-color: rgb(19, 82, 19);
 } */
-/* input[type="text"]{
-        background-color: cyan;
-        padding: 10px 15px;
-        border-radius: 50%;
-        font-size: 30px;
+input[type="text"]{
+        background-color: rgb(53, 53, 53);
+        padding: 0px 0px;
+        border-color: white;
+       margin:2px;
+        font-size: 15px; height:50px;
+        
     }
         ::placeholder{
-            color:;
+            color:rgb(251, 249, 249);
         }
-    input[type="password"]{
-        background-color: beige;
-        border-radius: 10px 20px ;
-        font-size: 20px;
-    }  */
+        input[type="email"]{
+        background-color: rgb(53, 53, 53);
+        padding: 10px 15px;
+        border-color: white;
+        font-size: 30px;
+        margin:20px;
+            }
+            input[type="password"]{
+        background-color: rgb(53, 53, 53);
+        border-color:white;
+        font-size: 30px;
+        padding: 10px 15px; margin:40px;
+    }  
+    input[type="submit"]{
+        background-color: green;
+        border-color: none;
+        font-size: 30px;
+        padding:10px 15px;margin: 30px;
+        color:rgb(251, 249, 249);
+                /* padding: 0px 0px;
+                /* border:none; */
+                 width: 28%; 
+                /* height:100%; */
+                /* font-size:18px; */
+                margin: 40px; 
+                /* height:50px; */ 
+
+ } 
 
 
         </style>
     </head>
     <body style="background-color: rgb(53, 53, 53);">
+       <FORM>
         <!-- <div>
             <input type="text" placeholder="Enter your name">
             <br><br><input type="password" placeholder="Enter your password here" maxlength="4"> 
@@ -77,5 +103,20 @@ input[type="text"]{
         <div style="color:white; font-size: 30px;">
             Sign Up for Free
         </div>
+        <div font-size:100%>
+            <input type="text" required placeholder="First Name*">
+            <input type="text" required placeholder="Last Name*">
+        </div>  
+        <div font-size:100%>
+            <input type="email" required placeholder="Email Address*">
+        </div> 
+        <div font-size:100%>
+          
+            <input required type="password" placeholder="Set a Password*">
+        </div>  
+        <div font-size:100%>
+            <input type="submit" value="GET STARTED" >
+          </div>
+        </FORM>
     </body>
 </html>
