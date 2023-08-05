@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>zoho</title>
+        <link rel="icon" href="/formk/zoho.ico">
+        <style>
+            .xyz{
+                color:blueviolet;
+                font-size: 20px;
+                
+            }
+            input[type="radio"]{
+                background-color: rgb(218, 196, 240);
+            }
+            input[type="text"]{
+                        background-color: rgb(218, 196, 240);
+                        padding: 0px 0px;
+                        border-color: none;
+                        margin:2px;
+                        font-size: 15px; height:50px;;
+                        border-radius:  20px;
+        
+    }
+    input[type="email"]{
+                        background-color: rgb(218, 196, 240);
+                        padding: 0px 0px;
+                        border-color: none;
+                        margin:2px;
+                        font-size: 15px; height:50px; width: 400px;
+                        border-radius:  20px;
+        
+    }
+    input[type="submit"]{
+        background-color: blueviolet; color:white; text-align: center; font-size:20px; border-radius: 20px;
+    }
+        </style>
+    </head>
+    <body>
+        <div style="margin: 100px;">
+        <div style="background-color: blueviolet; color:white; text-align: center; font-size:50px;">
+            Event Registration
+        </div>
+        <br><br>
+       <form>
+            <label class="xyz " > &nbsp;&nbsp;&nbsp;Would you be attending the XYZ Event?</label><br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" id="yes" name="tick">
+            <label for="yes"style="font-size:20px"> Yes</label>
+            <input type="radio" id="no" name="tick">
+            <label for="no" style="font-size:20px">No</label>
+            <br><br><br><br>
+            
+            &nbsp;&nbsp;&nbsp;<label for="name" class="xyz" >Name<span style="color:red;">*</span></label>
+            
+            <br> &nbsp;&nbsp;&nbsp;<input type="text"required id="name" placeholder="First" style="width: 200px;" ><input type="text"required id="name" placeholder="Last" style="width: 200px;">
+        <br><br><br><br><br>
+        &nbsp;&nbsp;&nbsp;<label for="mail" class="xyz" >Email<span style="color:red;">*</span></label>
+        <br>&nbsp;&nbsp;&nbsp;<input type="email" required id="mail">
+        <br><br><br><br><br>
+        &nbsp;&nbsp;&nbsp;<label for="num" class="xyz">Phone Number<span style="color:red;">*</span></label>
+        <br>&nbsp;&nbsp;&nbsp;<input type="text" required id="num" style="width: 400px;">
+        <br><br><br><br><br>
+        &nbsp;&nbsp;&nbsp;<label for="num1" class="xyz">How many guests are you bringing?</label>
+        <br>&nbsp;&nbsp;&nbsp;<input type="text" required id="num1" style="width: 400px;">
+        <br><br><br>
+        <div style="text-align: center;">
+            <input type="submit" value="Register">
+        </div>
+        </form></div>
+    </body>
+</html>
